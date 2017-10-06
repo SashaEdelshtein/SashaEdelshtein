@@ -1,0 +1,99 @@
+* {
+  box-sizing:border-box;
+  overflow: auto;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+
+  background: pink;
+  overflow: auto;
+  margin-bottom: 30px;
+  border-color: lightgrey;
+}
+
+h1 {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h2 {
+  font-family: 'Didact Gothic', sans-serif;
+  color: darkgrey;
+  font-style: oblique;
+  text-shadow: 2px -1px 2px lightpink;
+}
+
+h3 {
+  font-family: 'Didact Gothic', sans-serif;
+  color: grey;
+}
+
+header {
+  width: 99%;
+  left: 5px;
+      /* Как сделать header размером с ширину экрана браузера + отступы с обеих сторон? Если делаю left: значение; или right: значение; - он сбивает*/
+  border: dashed;
+  border-color: lightgrey;
+  position: fixed;
+  z-index: 2;
+  margin-bottom: 20px;
+  background: white;
+  padding-left: 15px;
+}
+
+nav {
+  font-family: 'Didact Gothic', sans-serif;
+  position: absolute;
+  z-index: 1;
+  border: dashed;
+  background: white;
+  right: 5px;
+  top: 10px;
+  margin-top: 0.9em;
+  padding: 5px;
+  border-color: lightgrey;
+}
+
+aside {
+  top: 120px;
+  padding-left: 50px;
+  overflow: auto;
+  position: absolute;
+  z-index: 1;
+  border: dashed;
+  background: lightyellow;
+
+  border-color: lightgrey;
+  right: 5px;
+  width: 240px;
+  height: 400px;
+}
+
+
+main {
+  top: 120px;
+  padding: 10px;
+  overflow: auto;
+  position: relative;
+  z-index: 1;
+  border: dashed;
+  background: white;
+  margin-right: 245px;
+  height: 500px;
+  border-color: lightgrey;
+}
+
+
+
+footer {
+  position: fixed;
+  background-color: lightgrey;
+  font-size: 12px;
+  padding: 10px;
+  color: white; /* как поменять цвет гиперссылок? */
+  border: dashed;
+  margin-top: 20px;
+  bottom: 10px;
+  width: 99%;
+  border-color: white;
+}
